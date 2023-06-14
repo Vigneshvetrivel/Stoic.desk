@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Trading Mentorship Program</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
@@ -16,6 +17,8 @@
             padding: 40px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            width: 80%; /* Adjust the width as per your preference */
+            margin: 0 auto; /* Center the container horizontally */
         }
 
         h1 {
@@ -50,6 +53,7 @@
 
         .level-container {
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-between;
             align-items: stretch;
             margin-top: 30px;
@@ -120,20 +124,31 @@
             height: 30px;
             margin-right: 5px;
         }
+
+        @media only screen and (max-width: 767px) {
+            .level-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .level {
+                flex-basis: 80%;
+            }
+        }
     </style>
     <link rel="icon" type="image/ico" href="favicon.ico">
 </head>
 <body>
     <div class="container">
         <img src="R.png" alt="Logo" class="logo">
-        <h1>Trading Mentorship Program</h1>
+        <h1>Forex Trading Mentorship Program</h1>
         <p class="community-name">S T O I C . D E S K</p>
         <p class="mentorship-info">One-to-One Mentorship Program</p>
 
         <div class="level-container">
             <div class="level">
                 <h2 class="level-heading">Level 1</h2>
-                <center><p class="level-description">B A S I C S</p></center>
+                <center><p class="level-description">BASICS</p></center>
                 <ul class="level-list">
                     <li>Fractal</li>
                     <li>Market Structure</li>
@@ -149,7 +164,7 @@
 
             <div class="level">
                 <h2 class="level-heading">Level 2</h2>
-                <center><p class="level-description">I N T E R M E D I A T E</p></center>
+                <center><p class="level-description">INTERMEDIATE</p></center>
                 <ul class="level-list">
                     <li>Range</li>
                     <li>Entry Approach</li>
@@ -162,7 +177,7 @@
 
             <div class="level">
                 <h2 class="level-heading">Level 3</h2>
-                <center><p class="level-description">A D V A N C E D</p></center>
+                <center><p class="level-description">ADVANCED</p></center>
                 <ul class="level-list">
                     <li>Advanced Technical Analysis</li>
                     <li>Risk Management</li>
@@ -172,7 +187,7 @@
             </div>
         </div>
         <hr>
-    <p style="text-align: justify;" class="about-me"><strong>About Me:</strong><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My name is Vignesh Vetrivel, a BE Computer Science graduate with a passion for trading. Since my final year of undergraduate studies, I have been deeply immersed in the forex market, accumulating 3.5 years of invaluable experience. I specialize in using technical analysis to drive my trading strategies and have achieved significant milestones, including being funded by prestigious programs like FTMO and Next Step Funded. I firmly believe in the power of technical analysis as a reliable tool for making informed trading decisions. Through comprehensive market analysis, I identify key entry and exit points, effectively manage risk, and navigate market trends with confidence. As a mentor, I am committed to sharing my expertise with aspiring traders, helping them develop a solid foundation and providing them with the necessary tools to thrive in the dynamic forex market. My personalized one-to-one approach ensures tailored guidance to each student, allowing us to explore various trading concepts, refine strategies, and foster a strong trading mindset. Fluent in Tamil and English, I ensure seamless communication during our mentorship sessions. Whether you're a beginner or an experienced trader seeking to enhance your skills, I am dedicated to supporting you on your trading journey. If you're ready to elevate your trading game, I invite you to join my mentorship program. Let's embark on this transformative trading journey together!</p>
+        <p style="text-align: justify;" class="about-me"><strong>About Me:</strong> My name is Vignesh Vetrivel, a BE Computer Science graduate with a passion for trading. Since my final year of undergraduate studies, I have been deeply immersed in the forex market, accumulating 3.5 years of invaluable experience. I specialize in using technical analysis to drive my trading strategies and have achieved significant milestones, including being funded by prestigious programs like FTMO and Next Step Funded. I firmly believe in the power of technical analysis as a reliable tool for making informed trading decisions. Through comprehensive market analysis, I identify key entry and exit points, effectively manage risk, and navigate market trends with confidence. As a mentor, I am committed to sharing my expertise with aspiring traders, helping them develop a solid foundation and providing them with the necessary tools to thrive in the dynamic forex market. My personalized one-to-one approach ensures tailored guidance to each student, allowing us to explore various trading concepts, refine strategies, and foster a strong trading mindset. Fluent in Tamil and English, I ensure seamless communication during our mentorship sessions. Whether you're a beginner or an experienced trader seeking to enhance your skills, I am dedicated to supporting you on your trading journey. If you're ready to elevate your trading game, I invite you to join my mentorship program. Let's embark on this transformative trading journey together!</p>
         <p class="course-price">Mentorship Fee: $200 USD</p>
         <p class="mentorship-info">Tamil and English are the two languages used for mentoring.</p>
         <p class="mentorship-info">Online private one-on-one classes</p>
